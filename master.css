@@ -46,6 +46,20 @@ h3 {
      letter-spacing: 10px;
 }
 
+h4 {
+     position: absolute;
+	      top: 92%;
+     left: 50%;
+	      transform: translate(-50%, -50%);
+     font-family: Poppins;
+     text-transform: uppercase;
+     color: #fff;
+     text-align: center;
+     font-weight: 600;
+     font-size: 11px;
+     letter-spacing: 10px;
+}
+
 a {
 text-decoration: none;
   color: white;
@@ -53,7 +67,7 @@ text-decoration: none;
 
 a:hover {
 box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  color: black;
+  color: white;
 }
 
 
@@ -64,14 +78,14 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   transition-duration: 0.4s;
 
   	height: 3%;
-	 width: 10%;
+	 width: 8%;
 
   background-color: #000; /* Green */
   border: none;
   color: white;
 
        position: absolute;
-     top: 93%;
+     top: 62%;
      left: 50%;
      transform: translate(-50%, -50%);
      font-family: Poppins;
@@ -81,6 +95,7 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
+       letter-spacing: 8px;
 }
 
 button:hover 
@@ -96,8 +111,7 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 
          position: absolute;
-     top: 93%;
-     left: 50%;
+
      transform: translate(-50%, -50%);
      font-family: Poppins;
      text-transform: uppercase;
