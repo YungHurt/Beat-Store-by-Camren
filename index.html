@@ -28,6 +28,12 @@
 <!-- FAVICON  -->
 <!-- FAVICON  -->
 
+<script>
+var introAudio1 = new Audio();
+var introAudio2 = new Audio();
+introAudio1.src = 'https://yunghurt.com/intro1.mp3';
+introAudio2.src = 'https://yunghurt.com/intro2.mp3';
+</script>
 
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,24 +45,13 @@
 
      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
      <script src="jquery.vide.js"></script>
+
 </head>
 
 <body data-vide-bg="background">
-
-		<audio>
-	  <source src="https://yunghurt.com/intro1.mp3" type="audio/mpeg" id="my_audio" loop="loop">
-	  <source src="https://yunghurt.com/intro1.wav" type="audio/wav" id="my_audio" loop="loop">
-	  <source src="https://yunghurt.com/intro1.ogg" type="audio/ogg" id="my_audio" loop="loop">
-	  </audio>
-
-  <script type="text/javascript">
- window.onload=function(){
-      document.getElementById("my_audio").play();
-  </script>
-
      <h1><a href="http://www.yunghurt.com/">Yung Hurt</a></h1>
 	 <h2>Official Beat Store</h2>
-	 <button onclick="window.location.href = 'https://yunghurt.com/home';">Listen</button>
+	 <button onmousedown="introAudio2.play()" onclick="window.location.href = 'https://yunghurt.com/home';">Continue</button>
 
 </body>
 

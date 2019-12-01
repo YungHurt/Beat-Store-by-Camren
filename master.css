@@ -82,14 +82,14 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
   background-color: #000; /* Green */
   border: none;
-  color: white;
+  color: red;
 
        position: absolute;
      top: 62%;
      left: 50%;
      transform: translate(-50%, -50%);
      font-family: Poppins;
-     text-transform: uppercase;
+       font-weight: 800;   text-transform: uppercase;
 
   text-align: center;
   text-decoration: none;
