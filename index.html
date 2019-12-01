@@ -33,6 +33,7 @@ var introAudio1 = new Audio();
 var introAudio2 = new Audio();
 introAudio1.src = 'https://yunghurt.com/intro1.mp3';
 introAudio2.src = 'https://yunghurt.com/intro2.mp3';
+}
 </script>
 
      <meta charset="UTF-8">
@@ -51,7 +52,7 @@ introAudio2.src = 'https://yunghurt.com/intro2.mp3';
 <body data-vide-bg="background">
      <h1><a href="http://www.yunghurt.com/">Yung Hurt</a></h1>
 	 <h2>Official Beat Store</h2>
-	 <button onmousedown="introAudio2.play()" onclick="window.location.href = 'https://yunghurt.com/home';">Continue</button>
+	 <button onmousedown="introAudio2.play()" onmouseenter="introAudio2.play()" onclick="window.location.href = 'https://yunghurt.com/home';">Continue</button>
 
 </body>
 
