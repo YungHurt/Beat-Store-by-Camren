@@ -27,13 +27,7 @@
 <meta name="theme-color" content="#ffffff">
 <!-- FAVICON  -->
 <!-- FAVICON  -->
-	
-	  <audio src="https://yunghurt.com/intro1.mp3" id="intro_Audio" loop="false"></audio>
-  <script type="text/javascript">
-    window.onload=function(){
-      document.getElementById("intro_Audio").play();
-    }
-  </script>
+
 
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,6 +42,17 @@
 </head>
 
 <body data-vide-bg="background">
+
+		<audio>
+	  <source src="https://yunghurt.com/intro1.mp3" type="audio/mpeg" id="my_audio" loop="loop">
+	  <source src="https://yunghurt.com/intro1.wav" type="audio/wav" id="my_audio" loop="loop">
+	  <source src="https://yunghurt.com/intro1.ogg" type="audio/ogg" id="my_audio" loop="loop">
+	  </audio>
+
+  <script type="text/javascript">
+ window.onload=function(){
+      document.getElementById("my_audio").play();
+  </script>
 
      <h1><a href="http://www.yunghurt.com/">Yung Hurt</a></h1>
 	 <h2>Official Beat Store</h2>
