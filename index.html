@@ -25,14 +25,20 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="https://yunghurt.com/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+
+<style type="text/css">
+
+</style>
 <!-- FAVICON  -->
 <!-- FAVICON  -->
 
 <script>
 var introAudio1 = new Audio();
 var introAudio2 = new Audio();
+var backgroundMusic = new Audio();
 introAudio1.src = 'https://yunghurt.com/intro1.mp3';
 introAudio2.src = 'https://yunghurt.com/intro2.mp3';
+backgroundMusic.src = 'https://yunghurt.com/backgroundMusic.mp3';
 }
 </script>
      <meta charset="UTF-8">
@@ -51,11 +57,15 @@ introAudio2.src = 'https://yunghurt.com/intro2.mp3';
 <body data-vide-bg="background">
      <h1><a href="http://www.yunghurt.com/">Yung Hurt</a></h1>
 	 <h2>Official Beat Store</h2>
-	 <button onmousedown="introAudio2.play()" onmouseenter="introAudio2.play()" onclick="window.location.href = 'https://yunghurt.com/home';">Continue</button>
-	
+
+	 <button style="position: absolute; transform: translate(-50%, -50%); left:50%;top:62.5%; height: 5%; width: 13%;" 
+	 onmousedown="introAudio2.play()" onmouseenter="introAudio2.play()" 
+	 onclick="window.location.href = 'https://yunghurt.com/home';">Continue</button>
+
+
+	<button style="position: absolute; transform: translate(-50%, -50%); left:96.5%;top:3.5%; height: 5%; width: 5%;"  onclick="backgroundMusic.play();">Mute</button>
 
 </body>
-
      <div>
 	 <h3><a href="http://www.yunghurt.com/">( YungHurt.com )</a></h3>
 	 </div>
