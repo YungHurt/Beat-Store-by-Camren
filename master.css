@@ -73,6 +73,8 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 button
 {
+cursor:pointer;
+    overflow: hidden;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 
@@ -90,10 +92,14 @@ button
   display: inline-block;
   font-size: 80%vw;
      letter-spacing: 0.5vh;
+	 outline:none;
 }
 
 button:hover 
 {
+cursor:pointer;
+    overflow: hidden;
+outline:none;
      letter-spacing: 1.5vh;
   	height: 4%;
 	 width: 105%;
